@@ -12,6 +12,16 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// routes
+const routes = require('./routes');
+app.use('/api', routes);
+
+// database
+const db = require('./models');
+db.sync()
+  .then(() => { console.log('Successfully connected to the database.'); })
+  .catch((error) => { console.error('Could not connect to the database.', error) });
+
 // * Postgres client
 const { Pool } = require('pg');
 const pgClient = new Pool({

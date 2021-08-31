@@ -30,7 +30,7 @@ services:
       - ./api-service:/app
     environment:
       - PGUSER=postgres
-      - PGHOST=postgres
+      - PGHOST=postgres-service
       - PGDATABASE=postgres
       - PGPASSWORD=postgres_password
       - PGPORT=5432

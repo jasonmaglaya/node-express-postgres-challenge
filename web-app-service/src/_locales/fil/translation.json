@@ -1,0 +1,19 @@
+{
+  "ToDo.loading": "Loading",
+  "ToDo.task": "Task",
+  "ToDo.task_plural": "Tasks",
+  "ToDo.subTask": "Sub Task",
+  "ToDo.subTask_plural": "Sub Tasks",
+  "TaskEditor.addTask": "Add Task",
+  "TaskEditor.addSubTask": "Add Sub Task",
+  "TaskEditor.title": "Title",
+  "TaskEditor.details": "Details",
+  "TaskEditor.cancel": "Cancel",
+  "TaskEditor.save": "Save",
+  "TaskEditor.titleRequired": "Title is required",
+  "ConfirmDialog.yes": "Yes",
+  "ConfirmDialog.no": "No",
+  "ConfirmDialog.ok": "OK",
+  "ConfirmDialog.cancel": "Cancel",
+  "MoreButton.confirmDelete": "Do you really want to delete {{taskName}}?"
+}
